@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Time Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron|Montserrat'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+  <div class="time row">
+    <div class="load-time">
+      <h3>The time is set to:</h3>
+      <h2 name="now"></h2>
+      <h2 name="test"></h2>
+      <br/> In
+      <br/>
+      <input type="text" class="form-control input" name="hours">
+      hours.
+      <br/> 
+      And
+      <br/>
+      <input type="text" class="form-control input" name="minutes">
+      minutes.
+      <br/> 
+      it will be:
+      <br/>
+      <input type="text" class="form-control input" name="then">
+      <button class="total btn">Calculate Time</button>
+      <button class="update btn">Update Time</button>
+      <br/> 
+      Set specific Time:
+      <br/>
+      <select class="form-control option" name="opt-hours">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>:
+      <select class="form-control option" name="opt-minutes">
+        <option value="00">00</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        <option value="32">32</option>
+        <option value="33">33</option>
+        <option value="34">34</option>
+        <option value="35">35</option>
+        <option value="36">36</option>
+        <option value="37">37</option>
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+        <option value="41">41</option>
+        <option value="42">42</option>
+        <option value="43">43</option>
+        <option value="44">44</option>
+        <option value="45">45</option>
+        <option value="46">46</option>
+        <option value="47">47</option>
+        <option value="48">48</option>
+        <option value="49">49</option>
+        <option value="50">50</option>
+        <option value="51">51</option>
+        <option value="52">52</option>
+        <option value="53">53</option>
+        <option value="54">54</option>
+        <option value="55">55</option>
+        <option value="56">56</option>
+        <option value="57">57</option>
+        <option value="58">58</option>
+        <option value="59">59</option>
+      </select>
+      <br/>
+      <button class="select btn">Select Time</button>
+    </div>
+    
+    <!-- Social Media -->
+    <!-- Social media buttons. -->
+<div class='row social'>
+  <div class='col-md-4 col-sm-4  col-xs-4 social-btn'>
+    <a href="mailto:jcobting@email.com" target='_blank'>
+      <button class='btn btn-block'><i class="fa fa-envelope"></i> E-mail
+      </button>
+    </a>
+  </div>
+  <div class='col-md-4 col-sm-4  col-xs-4 social-btn'>
+    <a href="https://twitter.com/jacobting" target="_blank">
+      <button class='btn btn-block'><i class="fa fa-twitter"></i> Twitter
+      </button>
+    </a>
+    </a>
+  </div>
+
+  <div class='col-md-4 col-sm-4  col-xs-4 social-btn'>
+    <a href="https://www.linkedin.com/in/jacobting" target="_blank">
+      <button class='btn btn-block'><i class="fa fa-linkedin"></i> LinkedIn
+      </button>
+    </a>
+  </div>
+
+  <div class='col-md-4 col-sm-4  col-xs-4 social-btn'>
+    <a href="https://github.com/jacobgithub" target="_blank">
+      <button class='btn btn-block'><i class="fa fa-github"></i> GitHub
+      </button>
+    </a>
+  </div>
+
+  <div class='col-md-4 col-sm-4  col-xs-4 social-btn'>
+    <a href="http://www.facebook.com/jacobcting" target="_blank">
+      <button class='btn btn-block'><i class="fa fa-facebook"></i> Facebook
+      </button>
+    </a>
+  </div>
+
+  <div class='col-md-4 col-sm-4 col-xs-4 social-btn'>
+    <a href="http://www.freecodecamp.com/jacobgithub" target="_blank">
+      <button class='btn btn-block'><i class="fa fa-fire"></i> Free Code Camp
+      </button>
+    </a>
+  </div>
+</div>
+    
+    
+    <!-- Footer -->
+  </div>
+   <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container">
+      <div class="navbar-text pull-left">
+        Created by Jacob C. Ting using <a href="http://codepen.io" target="_blank">CodePen.io</a> check out my other work
+        <a
+        href="http://jacobgithub.github.io/portfolio" target="_blank">here</a>.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.container -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
