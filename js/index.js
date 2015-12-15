@@ -76,6 +76,9 @@ function timeSinceNow() {
     $('.time .select').click(function() {   
     nowHours = $('.time select[name="opt-hours"]').val(); 
     nowHours = nowHours % 12;
+      if(nowHours == 0) {
+        nowHours = 12;
+      }
     nowMinutes = $('.time select[name="opt-minutes"]').val();  
     if(nowMinutes < 10) {
       nowMinutes = $('.time select[name="opt-minutes"]').val().substring(0,1);
