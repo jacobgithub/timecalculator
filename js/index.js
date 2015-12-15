@@ -20,6 +20,9 @@ function timeSinceNow() {
 
   var now = new Date();
   var nowHours = now.getHours() % 12;
+  if(nowHours == 0) {
+    nowHours = 12;
+  }
   var nowMinutes = now.getMinutes();
   if (nowMinutes < 10) {
     nowMinutes = "0" + nowMinutes;
